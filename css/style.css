@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid-index{
+    display: grid;
+    grid-template-columns: 80% auto;
+    grid-template-rows: 100px auto 150px;
+    grid-template-areas: 'cabecera cabecera'
+                         'cuerpo cuerpo'
+                         'pie-pagina pie-pagina';
+}
+.header{
+    grid-area: cabecera;
+    background-color: rgb(24, 22, 22);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.main{
+    grid-area: cuerpo;
+}
+.footer{
+    grid-area: pie-pagina;
+    background-color: orange;
+}
+.hamburger{
+    display: block;
+    cursor: pointer;
+}
+.hamburger .line{
+    width: 30px;
+    height: 3px;
+    background: #fefefe;
+    margin: 6px 0;
+}
+.logo{
+    color: #fefefe;
+}
+.img-portada{
+    width: 100%;
+    height: 380px;
+}
+.MIFOTO{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.areas-practicas{
+    display: flex;
+    flex-direction: row;
+}
+.areas-practicas div{
+    width: 40%;
+    display: flex;
+    padding: 2em;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.areas-practicas div p{
+    text-align: center;
+}
+.areas-practicas img{
+    width: 60%;
+    border: 1px solid black;
+}
+.articulo-proyectos{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5em;
+}
+.proyectos{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.articulo-proyectos h1{
+    text-align: center;
+}
+.articulo-proyectos p{
+    text-align: justify;
+}
+.proyectos img{
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+}
