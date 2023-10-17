@@ -7,12 +7,12 @@
             </div>
 
             <div class="MIFOTO seccion">
-                <img src="" alt="MIFOTO">
+                <img src="imagenes/yo.jpg" alt="MIFOTO">
                 <H3>Lorem ipsum dolor, sit amet consectetur adipisicing.</H3>
-                <a href="#">Acerca de mi</a>
+                <a href="">Acerca de mi</a>
             </div>
 
-            <div class="areas seccion">
+            <div class="areas seccion"> 
                 <div class="areas-practicas">
                     <div class="areas-articulos">
                         <div>
@@ -28,7 +28,7 @@
                         </div>
                     </div>
 
-                    <img src="" alt="IMAGEN">
+                    <img src="imagenes/programacion.jpg" alt="IMAGEN">
                 </div>
             </div>
 

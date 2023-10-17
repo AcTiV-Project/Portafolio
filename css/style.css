@@ -5,7 +5,7 @@
 .grid-index{
     display: grid;
     grid-template-columns: 80% auto;
-    grid-template-rows: 100px auto 150px;
+    grid-template-rows: 100px auto auto;
     grid-template-areas: 'cabecera cabecera'
                          'cuerpo cuerpo'
                          'pie-pagina pie-pagina';
@@ -23,7 +23,8 @@
 }
 .footer{
     grid-area: pie-pagina;
-    background-color: orange;
+    color: white;
+    background-color: black;
 }
 .hamburger{
     display: block;
@@ -40,7 +41,6 @@
 }
 .img-portada{
     width: 100%;
-    height: 380px;
 }
 .MIFOTO{
     height: 500px;
@@ -48,6 +48,11 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+.MIFOTO img{
+    width: 400px;
+    border-radius: 50%;
+    margin-bottom: 2em;
 }
 .areas-practicas{
     display: flex;
@@ -90,4 +95,24 @@
     width: 300px;
     height: 500px;
     margin: 20px;
+}
+.info-contacto{
+    display: flex;
+    flex-direction: row;
+}
+.copyright{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+.f{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+svg{
+    margin-bottom: 3em;
 }
