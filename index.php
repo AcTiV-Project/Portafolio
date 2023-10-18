@@ -17,14 +17,16 @@
                     <div class="areas-articulos">
                         <div>
                             <h1>0.1</h1>
+                            <h3>Desarrollo Web</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, labore.</p>
-                            <a href="#">Cotizar</a>
+                            <a href="view/cotizar.php">Cotizar</a>
                         </div>
 
                         <div>
                             <h1>0.2</h1>
+                            <h3>Desarrollo de software</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, sint?</p>
-                            <a href="#">Cotizar</a>
+                            <a href="view/cotizar.php">Cotizar</a>
                         </div>
                     </div>
 
