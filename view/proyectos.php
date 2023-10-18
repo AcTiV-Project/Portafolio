@@ -8,6 +8,15 @@
                 Fugit magni distinctio vitae laborum facere autem dicta quaerat vel minus asperiores eligendi, consequatur a accusamus cumque quos atque. Aliquid ea inventore modi eveniet placeat eos, repudiandae dignissimos corrupti officia?</p>
             </div>
 
+            <div class="proyectos">
+                <img src="../imagenes/web.jpeg" alt="IMAGEN" class="i-proyectos">
+                <img src="../imagenes/web.jpeg" alt="IMAGEN" class="i-proyectos">
+                <img src="../imagenes/web.jpeg" alt="IMAGEN" class="i-proyectos">
+                <img src="../imagenes/web.jpeg" alt="IMAGEN" class="i-proyectos">
+                <img src="../imagenes/web.jpeg" alt="IMAGEN" class="i-proyectos">
+                <img src="../imagenes/web.jpeg" alt="IMAGEN" class="i-proyectos">
+            </div>
+
            
         </div>
     </main>

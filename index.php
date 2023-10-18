@@ -47,8 +47,7 @@
                     <img src="imagenes/web.jpeg" alt="imagen-proyectos">
                 </div>
             </div>
-
-
+            
         </div>
     </main>
 

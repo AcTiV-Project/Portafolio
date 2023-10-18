@@ -2,6 +2,35 @@
     margin: 0;
     padding: 0;
 }
+body{
+    position: relative;
+}
+.menu{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    display: none;
+}
+.btn-menu{
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    font-size: 30px;
+    padding: 10px 25px;
+}
+.btn-menu:hover{
+    background: white;
+    color: black;
+}
+ul li {
+    margin: 30px;
+}
 .grid-index{
     display: grid;
     grid-template-columns: 80% auto;
@@ -10,7 +39,7 @@
                          'cuerpo cuerpo'
                          'pie-pagina pie-pagina';
 }
-.header{
+.header{ 
     grid-area: cabecera;
     background-color: black;
     display: flex;
@@ -59,9 +88,9 @@
     flex-direction: row;
 }
 .areas-practicas div{
-    width: 40%;
+    width: 70%;
+    height: 400px;
     display: flex;
-    padding: 2em;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -148,4 +177,47 @@ label{
 }
 .radio{
     margin-bottom: 15px;
+}
+.parrafo-desarrollo{
+    background-color: orange;
+    height: 500px;
+    padding: 3em;
+}
+.portada-desarrollo{
+    background-color: red;
+    height: 300px;
+}
+.parrafo-desarrollo h1{
+    margin-bottom: 1em;
+}
+.acerca-de-mi{
+    display: flex;
+    flex-direction: row;
+}
+.acerca-de-mi div{
+    width: 50%;
+    padding: 3em;
+}
+.Mi-Imagen{
+    width: 500px;
+}
+.info-ceo article{
+    margin-bottom: 60px;
+}
+.imagen-del-proyecto{
+    width: 400px;
+}
+.info-proyecto{
+    display: flex;
+    flex-direction: row;
+}
+.info-proyecto div{
+    width: 50%;
+    padding: 5em;
+}
+.i-proyectos{
+    width: 200px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
 }
