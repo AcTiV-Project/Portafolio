@@ -24,6 +24,8 @@
 
                     <textarea class="input" name="" id="" cols="30" rows="10" placeholder="Describa su proyecto"></textarea>
 
+                    <input class="submit" type="submit" value="Enviar">
+
                 </form>
             </div>
         </div>

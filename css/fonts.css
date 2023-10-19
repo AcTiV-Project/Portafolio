@@ -1,0 +1,44 @@
+p{
+    line-height: 30px;
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+label{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+}
+h1{
+    font-size: 35px;
+    font-family: 'Ubuntu', sans-serif;
+}
+h3{
+    font-family: 'Ubuntu', sans-serif;
+}
+strong{
+    font-family: 'Ubuntu', sans-serif;
+}
+a{
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+}
+.a{
+    text-decoration: none;
+    margin-top: 10px;
+    background-color: #2980B9;
+    color: white;
+    padding: 1em;
+    border-radius: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.submit{
+    width: 400px;
+    border-style: none;
+    background-color: #2980B9;
+    color: white;
+    padding: 1em;
+    border-radius: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');

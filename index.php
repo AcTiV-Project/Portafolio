@@ -9,7 +9,7 @@
             <div class="MIFOTO seccion">
                 <img src="imagenes/yo.jpg" alt="MIFOTO">
                 <H3>Lorem ipsum dolor, sit amet consectetur adipisicing.</H3>
-                <a href="">Acerca de mi</a>
+                <a class="a" href="view/info-ceo.php">Acerca de mi</a>
             </div>
 
             <div class="areas seccion"> 
@@ -19,20 +19,20 @@
                             <h1>0.1</h1>
                             <h3>Desarrollo Web</h3>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, labore.</p>
-                            <a href="view/cotizar.php">Cotizar</a>
+                            <a class="a" href="view/info-desarrollo.php">Leer mas</a>
                         </div>
 
-                        <div>
+                        <div id="div-software">
                             <h1>0.2</h1>
                             <h3>Desarrollo de software</h3>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, sint?</p>
-                            <a href="view/cotizar.php">Cotizar</a>
+                            <a class="a" href="view/info-desarrollo.php">Leer mas</a>
                         </div>
                     </div>
 
                     <img src="imagenes/programacion.jpg" alt="IMAGEN">
                 </div>
-            </div>
+            </div> 
 
             <div class="ver-proyectos seccion">
                 <div class="articulo-proyectos">

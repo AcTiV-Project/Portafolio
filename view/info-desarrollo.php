@@ -2,7 +2,11 @@
 
     <main class="main">
         <div class="secciones">
-            <div class="portada-desarrollo seccion"></div>
+            <div class="portada-desarrollo seccion">
+                <video src="">
+                    <source src="video.mov">
+                </video>
+            </div>
 
             <div class="parrafo-desarrollo seccion">
                 <h1>Titulo</h1>

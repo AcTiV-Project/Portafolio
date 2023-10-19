@@ -5,6 +5,9 @@
 body{
     position: relative;
 }
+.seccion{
+    margin-bottom: 3em;
+}
 .menu{
     width: 30%;
     height: 100%;
@@ -89,24 +92,28 @@ ul li {
 }
 .areas-practicas div{
     width: 70%;
-    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid black;
 }
 .areas-practicas div p{
     text-align: center;
 }
 .areas-practicas img{
     width: 60%;
-    border: 1px solid black;
 }
 .articulo-proyectos{
     width: 90%;
     margin: auto;
     margin-bottom: 5em;
+}
+.areas-articulos div{
+    width: 100%;
+    height: 100%;
+}
+#div-software{
+    background-color: #EEEEEE;
 }
 .proyectos{
     width: 90%;
@@ -179,12 +186,9 @@ label{
     margin-bottom: 15px;
 }
 .parrafo-desarrollo{
-    background-color: orange;
-    height: 500px;
     padding: 3em;
 }
 .portada-desarrollo{
-    background-color: red;
     height: 300px;
 }
 .parrafo-desarrollo h1{

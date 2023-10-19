@@ -8,7 +8,7 @@
                 </div>
 
                 <div class="ver-proyecto">
-                    <a href="#">Ver en vista previa</a>
+                    <a class="a" href="#">Ver en vista previa</a>
                 </div>
             </div>
         </div>
