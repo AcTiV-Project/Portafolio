@@ -19,8 +19,8 @@
                     <label for="">Correo Electronico</label>
                     <input class="input" type="email" name="correo" id="" placeholder="EMAIL">
 
-                    <p>Desarrollo Web <input class="radio" type="radio" name="web" id=""></p>
-                    <p>Desarrollo de software <input class="radio" type="radio" name="software" id=""></p>
+                    <p>Desarrollo Web         <input class="radio" type="radio" name="servicio" id="web" value="web"></p>
+                    <p>Desarrollo de software <input class="radio" type="radio" name="servicio" id="software" value="software"></p>
 
                     <textarea class="input" name="" id="" cols="30" rows="10" placeholder="Describa su proyecto"></textarea>
 

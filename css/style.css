@@ -185,11 +185,14 @@ label{
 .radio{
     margin-bottom: 15px;
 }
-.parrafo-desarrollo{
-    padding: 3em;
+.parrafo-desarrollo article{
+    width: 50%;
+}
+.parrafo-desarrollo img{
+    height: 400px;
 }
 .portada-desarrollo{
-    height: 300px;
+    /*height: 300px;*/
 }
 .parrafo-desarrollo h1{
     margin-bottom: 1em;
@@ -211,17 +214,28 @@ label{
 .imagen-del-proyecto{
     width: 400px;
 }
+.imagen-proyecto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EEEEEE;
+
+}
 .info-proyecto{
     display: flex;
     flex-direction: row;
 }
 .info-proyecto div{
     width: 50%;
-    padding: 5em;
+    padding: 3em;
 }
 .i-proyectos{
     width: 200px;
     margin: 20px;
     display: flex;
     flex-wrap: wrap;
+}
+.video1{
+    width: 100%;
+    height: 500px;
 }

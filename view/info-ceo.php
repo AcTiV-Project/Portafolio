@@ -2,6 +2,7 @@
 
     <main class="main">
         <div class="secciones">
+            
             <div class="acerca-de-mi">
                 <div class="info-ceo">
                     <article>
@@ -34,6 +35,7 @@
                     <img class="Mi-Imagen" src="../imagenes/ceo.jpg" alt="IMAGEN">
                 </div>
             </div>
+
         </div>
     </main>
 
